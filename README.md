@@ -10,12 +10,16 @@ arduino project for a tracker device.
 ##file explanation:
 ###arduino code
 __read.ino__: reads values stored at EEPROM.
+
 __clear.ino__: clears EEPROM. 
+
 __project_delay__: reads GPS values periodically.
+
 __project.ino__: reads GPS values as they change.
 
 ###web code
 __display.html__: display the gathered data stored at a text file
+
 __sc.js__: java script code for displaying data
 
 
